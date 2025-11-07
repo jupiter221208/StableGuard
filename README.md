@@ -63,7 +63,17 @@ StableGuard is an AI-powered application designed to detect whether a given imag
    cd StableGuard
    ```
 
-2. Install the required packages:
+2. Create and activate a virtual environment:
+
+   ```sh
+   python -m venv .venv
+   # On Windows:
+   .venv\Scripts\activate
+   # On Linux/macOS:
+   source .venv/bin/activate
+   ```
+
+3. Install other required packages:
    ```sh
    pip install -r requirements.txt
    ```
